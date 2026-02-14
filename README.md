@@ -35,3 +35,34 @@ The objective is to explore how quantum-enhanced feature representations can imp
 
 ## Repository Structure
 
+
+---
+
+## Current Status
+
+- Hybrid CNN–QCNN architecture implemented in PyTorch + PennyLane
+- 8-qubit variational quantum circuit integrated using AngleEmbedding and entanglement layers
+- End-to-end hybrid forward pass verified
+- Structural training loop validated using synthetic data
+
+Full dataset training, hyperparameter tuning, and metric benchmarking are currently in progress.
+
+---
+
+## Research Motivation
+
+While classical CNNs demonstrate strong performance in medical image classification, they often require large labeled datasets and may struggle with capturing complex global feature correlations.
+
+Variational quantum circuits operate in high-dimensional Hilbert spaces using superposition and entanglement, potentially enabling richer feature mappings with fewer parameters.
+
+This project explores whether integrating quantum feature transformations with classical convolutional representations can improve generalization and reduce overfitting in medical imaging tasks.
+
+---
+
+## Future Work
+
+- Full-scale training on LIDC-IDRI dataset
+- Accuracy, Precision, Recall, F1-score, and AUC benchmarking
+- Noise robustness evaluation under simulated quantum noise
+- Deployment testing on cloud-based quantum hardware
+- Parameter efficiency comparison with classical CNN baseline
